@@ -50,7 +50,7 @@ const Login = (props) => {
     } else {
       // console.log("user login succesfully done");
 
-      const data = await fetch("https://hawkerhutback.onrender.com/login", {
+      const data = await fetch("https://sea-lion-app-6nyh2.ondigitalocean.app/login", {
         method: "GET",
         // headers: {
         //   "Content-Type": "application/json",
