@@ -75,7 +75,7 @@ const BReg = () => {
     } else {
       // console.log("user registration succesfully done");
 
-      const data = await fetch("https://hawkerhutback.onrender.com/businessregister", {
+      const data = await fetch("https://sea-lion-app-6nyh2.ondigitalocean.app/businessregister", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
