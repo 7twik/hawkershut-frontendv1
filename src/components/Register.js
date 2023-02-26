@@ -68,7 +68,7 @@ const Register = () => {
     } else {
       // console.log("user registration succesfully done");
 
-      const data = await fetch("https://hawkerhutback.onrender.com/register", {
+      const data = await fetch("https://sea-lion-app-6nyh2.ondigitalocean.app/register", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
