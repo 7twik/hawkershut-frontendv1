@@ -50,7 +50,7 @@ const BLog = (props) => {
     } else {
       // console.log("user login succesfully done");
 
-      const data = await fetch("http://localhost:8009/blogin", {
+      const data = await fetch("https://hawkerhutback.onrender.com/blogin", {
         method: "GET",
         // headers: {
         //   "Content-Type": "application/json",

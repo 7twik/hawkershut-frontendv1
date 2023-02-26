@@ -75,7 +75,7 @@ const BReg = () => {
     } else {
       // console.log("user registration succesfully done");
 
-      const data = await fetch("http://localhost:8009/businessregister", {
+      const data = await fetch("https://hawkerhutback.onrender.com/businessregister", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
