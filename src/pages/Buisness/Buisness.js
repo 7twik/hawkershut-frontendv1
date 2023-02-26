@@ -66,7 +66,7 @@ function Buisness() {
     };
 
     try {
-      const res = await axios.post("https://hawkerhutback.onrender.com/api/pins", newPin);
+      const res = await axios.post("https://sea-lion-app-6nyh2.ondigitalocean.app/api/pins", newPin);
       setPins([...pins, res.data]);
       setNewPlace(null);
     } catch (err) {
@@ -77,7 +77,7 @@ function Buisness() {
   useEffect(() => {
     const getPins = async () => {
       try {
-        const allPins = await axios.get("https://hawkerhutback.onrender.com/api/pins");
+        const allPins = await axios.get("https://sea-lion-app-6nyh2.ondigitalocean.app/api/pins");
         setPins(allPins.data);
       } catch (err) {
         console.log(err);
