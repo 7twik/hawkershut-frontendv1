@@ -1,3 +1,10 @@
+**HawkersHut**-An ecommerce website built for the Thella-walas so that they can make the best use of technology inorder to raise their business and would not be restricted to their respective surrounding areas.
+
+
+The tech stack used here MERN(Mongo Db,Express JS,React JS,Node JS).The frontend part has been made with React JS and the backend has been built with Node JS.The frontend of website has been hosted on Render and backend is deployed on Digital Ocean and the repositories are imported from Github.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +75,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
